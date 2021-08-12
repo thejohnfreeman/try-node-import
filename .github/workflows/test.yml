@@ -10,6 +10,7 @@ jobs:
           - b-es2015
           - b-typescript
     steps:
+      - uses: actions/checkout@v2
       - run: |
           cd ${{ matrix.b }}
           yarn
