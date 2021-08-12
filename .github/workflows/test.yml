@@ -11,7 +11,7 @@ jobs:
           - b-typescript
     steps:
       - run: |
-          cd {{ matrix.b }}
+          cd ${{ matrix.b }}
           yarn
           yarn build || true
           yarn test
