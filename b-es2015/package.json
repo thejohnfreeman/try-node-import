@@ -1,0 +1,12 @@
+{
+  "name": "es2015",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "a": "link:../a"
+  }
+}

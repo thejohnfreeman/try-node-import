@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "node commonjs/index.js"
+  },
+  "dependencies": {
+    "a": "link:../a"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "commonjs/index.js",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "./commonjs/index.js",
+  "exports": {
+    ".": "./commonjs/index.js",
+    "./*": "./commonjs/*.js"
+  },
+  "types": "commonjs/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": ["commonjs/*"]
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

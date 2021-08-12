@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2015",
+    "declaration": true,
+    "module": "commonjs",
+    "outDir": "commonjs"
+  }
+}
