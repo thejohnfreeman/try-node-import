@@ -12,6 +12,7 @@
   "types": "commonjs/index.d.ts",
   "typesVersions": {
     "*": {
+      ".": ["commonjs/index.d.ts"],
       "*": ["commonjs/*"]
     }
   },
