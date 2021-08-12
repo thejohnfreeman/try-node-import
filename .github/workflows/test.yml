@@ -1,0 +1,17 @@
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        b:
+          - b-commonjs
+          - b-es2015
+          - b-typescript
+    steps:
+      - run: |
+          cd {{ matrix.b }}
+          yarn
+          yarn build || true
+          yarn test

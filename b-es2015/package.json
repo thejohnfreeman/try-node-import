@@ -4,6 +4,7 @@
   "type": "module",
   "license": "ISC",
   "scripts": {
+    "build": "true",
     "test": "node index.js"
   },
   "dependencies": {
